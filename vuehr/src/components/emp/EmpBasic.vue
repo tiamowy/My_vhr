@@ -533,7 +533,7 @@
                   <el-date-picker
                     v-model="emp.beginContract"
                     size="mini"
-                    value-format="yyyy-MM-dd HH:mm:ss"
+                    value-format="yyyy-MM-dd"
                     style="width: 135px"
                     type="date"
                     placeholder="合同起始日期">
@@ -546,7 +546,7 @@
                 <el-form-item label="合同终止日期:" prop="endContract">
                   <el-date-picker
                     v-model="emp.endContract"
-                    value-format="yyyy-MM-dd HH:mm:ss"
+                    value-format="yyyy-MM-dd"
                     size="mini"
                     style="width: 135px"
                     type="date"
