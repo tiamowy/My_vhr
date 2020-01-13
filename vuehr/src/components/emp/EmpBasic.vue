@@ -9,7 +9,7 @@
             @change="keywordsChange"
             style="width: 300px;margin: 0px;padding: 0px;"
             size="mini"
-            :disabled="advanceSearchViewVisible"
+
             @keyup.enter.native="searchEmp"
             prefix-icon="el-icon-search"
             v-model="keywords">
