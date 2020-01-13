@@ -778,10 +778,12 @@
       },
       keywordsChange(val) {
         if (val == '') {
+          this.currentPage = 1;
           this.loadEmps();
         }
       },
       searchEmp() {
+        this.currentPage = 1;
         this.loadEmps();
       },
       currentChange(currentChange) {
